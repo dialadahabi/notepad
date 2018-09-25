@@ -1,7 +1,6 @@
 const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
-// const {URL, MNEMONIC} = require('./values');
 const INITIAL_NOTE = 'Test'
 const provider = new HDWalletProvider(
 	'miracle lift pudding stamp utility nerve drill elite fade flame swap crime',
